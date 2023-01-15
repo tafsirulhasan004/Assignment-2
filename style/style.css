@@ -93,10 +93,12 @@ body{
         display: inherit
     }
     .list-item a{
-        padding: 20px 9px;
+        padding: 20px 8px;
     }
     .logo-title{
         font-size: 30px;
+        width:26%;
+        text-align:center;
     }
     .header-content{
         width: 26%;
@@ -117,6 +119,9 @@ body{
     .Home-banner img{
         width:100%;
         height:auto;
+    }
+    .feature-box{
+        grid-template-columns: repeat(1, 1fr)!important;
     }
 }
     
